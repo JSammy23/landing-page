@@ -21,7 +21,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
   padding-bottom: 30px;
 }
 
@@ -30,7 +29,6 @@ header {
   height: 75px;
   display: flex;
   align-items: center;
-  border: 2px dotted lime;
 }
 
 ul {
@@ -61,6 +59,16 @@ a {
   width: 95%;
 }
 
+.mini p {
+  font-size: 18px;
+  text-align: center;
+  color: #838383bc;
+}
+
+.mini {
+  width: 165px;
+}
+
 .logo {
   color: #f9faf8;
   font-size: 24px;
@@ -68,7 +76,7 @@ a {
 
 .hero-main {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 900;
   color: #f9faf8;
   width: 80%;
   margin-bottom: 30px;
@@ -77,7 +85,6 @@ a {
 .sub-cont {
   width: 45%;
   margin-right: 30px;
-  border: 2px solid yellow;
 }
 
 .img-div {
@@ -103,10 +110,16 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 3px dotted blue;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  
+}
+
+.info {
+  font: 900;
+  font-size: 36px;
+  color: #1f2937;
 }
 
 .tile {
@@ -117,9 +130,8 @@ button {
 }
 
 .content-wrapper {
-  border: 2px solid lime;
   display: flex;
-
+  gap: 2em;
 }
 
 .cont-two {
