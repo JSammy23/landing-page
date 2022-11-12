@@ -102,6 +102,7 @@ button {
   border-radius: 10px;
   background-color: #3882f6;
   color: #f9faf8;
+  border: none;
 }
 
 .cont-one {
@@ -176,13 +177,22 @@ button {
 }
 
 .text-cont {
-  border: 2px solid lime;
   color: #f9faf8;
-  
+}
+
+.text-cont h3 {
+  margin: 0;
+}
+
+.text-cont p {
+  margin-top: -15px;
 }
 
 .flex-cont button {
-  margin-left: #;
+  border: 2px solid #f9faf8;
+  font-weight: 800;
+  padding: 7px;
+  font-size: 16px;
 }
 
 footer {
