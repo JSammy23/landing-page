@@ -156,3 +156,44 @@ button {
   font-style: italic;
   font-weight: 100;
 }
+
+.cont-three {
+  min-height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex-cont {
+  width: 70%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  gap: 100px;
+}
+
+.text-cont {
+  border: 2px solid lime;
+  color: #f9faf8;
+  
+}
+
+.flex-cont button {
+  margin-left: #;
+}
+
+footer {
+  min-height: 100px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h3 {
+  text-align: center;
+  color: #f9faf8;
+}
