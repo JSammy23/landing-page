@@ -90,8 +90,16 @@ a {
 .img-div {
   width: 500px;
   height: 250px;
-  background-color: #e5e7eb;
   text-align: center;
+  overflow: hidden;
+  border-radius: 15px;
+
+}
+
+.img-div img {
+  display: block;
+  width: 500px;
+  height: auto;
 }
 
 button {
@@ -128,6 +136,12 @@ button {
   height: 170px;
   border: 3px solid #3882f6;
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.tile img {
+  width: 165px;
+  border-radius: 10px;
 }
 
 .content-wrapper {
